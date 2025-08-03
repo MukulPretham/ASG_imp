@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "/home/ubuntu/.nvm/versions/node/v22.18.0/bin/tsc -b && /home/ubuntu/.nvm/versions/node/v22.18.0/bin/node dist/bin.js"
+    "dev": "npx tsc -b && /home/ubuntu/.nvm/versions/node/v22.18.0/bin/node dist/bin.js"
   },
   "keywords": [],
   "author": "",
